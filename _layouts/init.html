@@ -1,21 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<body>
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.layout == "post" %}
-            <div class="post">
-        {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
-        {% endif %}
-
-            {{ content }}
-            </div>
-                </div>
-            </div>
-    </div>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/_layouts/css/style.css">
+  </head>
+  <body>
+    <nav  class="links">
+      <a href="/" class="btn" id="home-btn">Home</a>
+    </nav>
+    <section class="content">
+      {{ content }}
+    </section>
+    <footer>
+      &copy; Rodolfo Schiavi
+    </footer>
+  </body>
 </html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #121212;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .links {
+        display: flex;
+        gap: 15px;
+    }
+    .btn {
+        text-decoration: none;
+        color: white;
+        background: #0073b1;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        transition: 0.3s;
+    }
+    .btn:hover {
+        background: #005582;
+    }
+    
+    .content {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 0 20px;
+        font-size: 1.2rem;
+    }
+    
+    .title-image {
+        max-height: 20%;
+        max-width: 80%;
+        margin-top: 20px;
+    }
+</style>
