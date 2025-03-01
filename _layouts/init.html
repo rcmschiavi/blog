@@ -8,6 +8,7 @@
   <body>
     <nav class="links">
       <a href="/" class="btn" id="home-btn">Home</a>
+      <a href="/blog" class="btn" id="blog-btn">Blog</a>
     </nav>
     <section class="content">
       {{ content }}
@@ -37,6 +38,8 @@
         background-color: #121212;
         padding: 10px 0;
         z-index: 1000;
+        display: flex;
+        justify-content: center;
     }
     h1 {
         font-size: 3rem;
@@ -68,6 +71,7 @@
         margin: 0 auto;
         padding: 0 20px;
         font-size: 1.2rem;
+        text-align: justify;
         margin-top: 60px; /* Add margin to avoid content being hidden behind the fixed nav */
     }
     
