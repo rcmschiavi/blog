@@ -5,8 +5,6 @@ layout: default
 category: blog
 ---
 
-# Welcome to My Blog
-
 Hello and welcome to my blog! This is the first post of many where I will be sharing my knowledge and experiences in the world of technology. Here, you can expect to find content focused on three main areas:
 
 ## Backend Development
