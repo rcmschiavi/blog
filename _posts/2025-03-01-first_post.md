@@ -2,6 +2,7 @@
 title: "Welcome to my blog"
 date: 2025-03-01
 layout: default
+category: blog
 ---
 
 # Welcome to My Blog
