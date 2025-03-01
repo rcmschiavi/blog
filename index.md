@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
+title: Rodolfo Schiavi - Blog
 layout: default
 ---
 
@@ -10,7 +10,6 @@ Welcome to my blog! Here, I share my knowledge and experiences in the world of t
 		<p class="text-center">Nothing published yet!</p>
 	{% else %}
 		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
 				{% endif %}

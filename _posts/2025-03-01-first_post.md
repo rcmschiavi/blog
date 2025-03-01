@@ -1,8 +1,9 @@
 ---
 title: "Welcome to my blog"
 date: 2025-03-01
-layout: default
-category: blog
+layout: post
+image: /assets/images/welcome.png
+headerImage: true
 ---
 
 Hello and welcome to my blog! This is the first post of many where I will be sharing my knowledge and experiences in the world of technology. Here, you can expect to find content focused on three main areas:
