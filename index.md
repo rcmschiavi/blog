@@ -13,7 +13,6 @@ Welcome to my blog! Here, I share my knowledge and experiences in the world of t
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
 				{% endif %}
-			{% endif %}
 		{% endfor %}
 	{% endif %}
 </section>
