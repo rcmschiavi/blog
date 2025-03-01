@@ -2,7 +2,7 @@
 title: "Welcome to my blog"
 date: 2025-03-01
 layout: post
-image: /assets/images/welcome.png
+image: /blog/assets/images/welcome.png
 headerImage: true
 ---
 
