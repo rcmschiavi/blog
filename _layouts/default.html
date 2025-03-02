@@ -24,12 +24,12 @@
             <div class="@container">
               <div class="p-4 @[480px]:p-4">
             <div
-              class="flex max-h-[100px] md:max-h-[120px] lg:max-h-[80px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4 md:p-8"
+              class="flex max-h-[150px] md:max-h-[150px] lg:max-h-[150px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4 md:p-8"
               style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("/assets/images/workspace.jpg");'
             >
               <div class="flex-wrap gap-2 md:gap-3 flex justify-center">
                 <a
-                  href="/blog"
+                  href="/"
                   class="flex min-w-[100px] min-h-[50px] hover:bg-sky-700 cursor-pointer items-center justify-center overflow-hidden rounded-lg md:rounded-xl h-8 md:h-10 px-3 md:px-4 bg-[#2094f3] text-white text-xs md:text-sm font-bold leading-normal tracking-[0.015em]"
                 >
                   <span class="truncate text-g">Home</span>
@@ -37,8 +37,8 @@
               </div>
             </div>
             <div class="flex flex-col gap-4 p-4 md:p-8 justify-center flex-grow"></div>
-              <h1>{{ page.title }}</h1>
-                <div class="text-2xl text-justify">
+              <h1 class="text-7xl">{{ page.title }}</h1>
+                <div class="text-5xl text-justify">
                   {{ content }}
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-3 p-4">

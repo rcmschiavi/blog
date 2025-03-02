@@ -8,7 +8,7 @@ headerImage: true
 
 What came first? The back or the front end? I'm not sure, but I could not find a way to publish my posts without building my own layout. 
 
-Something like that. I'm not a big fan of frontend development. I always procrastinated learning and kept using the HTML and CSS syntax I memorized. With that excuse presented, there are the two steps used for creating this layout:
+Something like that. I'm not a big fan of frontend development. I always procrastinated learning and did not used for many days the HTML and CSS syntax I memorized. With that excuse presented, there are the two steps used for creating this layout:
 - [Galileo AI](https://www.usegalileo.ai/explore) - Asked for a simple template with my specifications.
 - Copilot - Asked for help with tailwind changes.
 
