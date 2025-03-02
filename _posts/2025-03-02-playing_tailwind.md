@@ -1,8 +1,8 @@
 ---
 title: "Backender and tailwind"
-date: 2025-03-01
+date: 2025-03-02
 layout: post
-image: /blog/assets/images/welcome.png
+image: /blog/assets/images/tailwind.png
 headerImage: true
 ---
 
