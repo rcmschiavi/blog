@@ -10,3 +10,10 @@ Here, I share my knowledge and experiences in the world of technology, focusing 
 Expect to find tutorials, tips, and insights on building robust APIs, managing databases, deploying applications, securing your code, and much more. 
 
 Stay tuned for engaging and informative content that will help you navigate the tech landscape. Thank you for visiting, and happy coding!
+
+<style>
+
+p {
+text-size: 4em;
+}
+</style>
