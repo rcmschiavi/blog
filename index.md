@@ -3,9 +3,10 @@ title: Rodolfo Schiavi's - Blog
 layout: default
 ---
 
-<div class="text-5xl ">
+<div class="text-5xl text-justify">
 Welcome to my blog! 
-<br>
+</div>
+<div class="text-5xl text-center">
 Here, I share my knowledge and experiences in the world of technology, focusing on backend development, infrastructure, and cybersecurity. 
 <br>
 Expect to find tutorials, tips, and insights on building robust APIs, managing databases, deploying applications, securing your code, and much more. 
