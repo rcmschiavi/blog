@@ -3,7 +3,7 @@ title: Rodolfo Schiavi's - Blog
 layout: default
 ---
 
-<div class="text-4xl">
+<div class="text-5xl ">
 Welcome to my blog! 
 <br>
 Here, I share my knowledge and experiences in the world of technology, focusing on backend development, infrastructure, and cybersecurity. 
