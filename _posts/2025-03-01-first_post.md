@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my blog"
+title: "Greatings and what to expect"
 date: 2025-03-01
 layout: post
 image: /blog/assets/images/welcome.png
