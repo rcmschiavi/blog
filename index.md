@@ -16,7 +16,8 @@ Expect to find tutorials, tips, and insights on building robust APIs, managing d
 <br>
 Stay tuned for engaging and informative content that will help you navigate the tech landscape.
 <br>
+<div class="text-5xl text-center">
 Thank you for visiting, and happy coding!
-<br>
+</div>
 <br>
 </div>
