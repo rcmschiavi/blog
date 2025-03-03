@@ -4,19 +4,42 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/_layouts/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     {% include favicon.html %}
   </head>
   <body>
-    <nav class="links">
+    <nav class="links flex bg-cover bg-center bg-no-repeat items-center justify-center" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("/assets/images/workspace.jpg");'>
       <a href="/" class="btn" id="home-btn">Home</a>
       <a href="/blog" class="btn" id="blog-btn">Blog</a>
     </nav>
-    <section class="content">
-      {{ content }}
-    </section>
-    <footer>
-      &copy; Rodolfo Schiavi
-    </footer>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#101a23] dark group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="px-2 md:px-4 lg:px-4 flex flex-1 justify-center py-3 md:py-5">
+          <div class="layout-content-container flex flex-col max-w-[1500px] flex-1">
+            <div class="@container">
+              <div class="p-4 @[480px]:p-4">
+            <section class="content">
+              {{ content }}  
+            </section>
+            </div>
+        </div>
+        </div>
+      </div>
+      <footer>
+        &copy; Rodolfo Schiavi
+      </footer>
+    </div>
+  </div>
+  </div>
   </body>
 </html>
 <style>
